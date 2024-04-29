@@ -25,7 +25,7 @@ body {
     max-width: 100vw;
 }
 
-html{
+html {
     font-size: 16px;
 }
 
@@ -54,8 +54,8 @@ html{
 
 .btn_letter {
     position: absolute;
-    right: 20px;
-    bottom: 20px;
+    right: 40px;
+    bottom: 40px;
     background-color: rgba(0, 0, 0, 0.1);
     padding: 10px 12px;
     border-radius: 50%;
@@ -96,17 +96,8 @@ html{
     color: #db4646;
 }
 
-.cat {
-    position: absolute;
-    right: 10px;
-}
-
-.cat img {
-    width: 40vw;
-}
-
 .cake {
-    bottom: 80px;
+    bottom: 200px;
 }
 
 .cake .hider {
@@ -151,7 +142,7 @@ html{
     left: 0;
     top: 0;
     background-color: #fcdadd;
-    padding: 100px 0;
+    padding: 120px 0;
     width: 100vw;
     height: 100vh;
     transform: translateY(-100%);
@@ -193,14 +184,15 @@ html{
 
 .yuta {
     position: absolute;
-    left: 0;
-    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 240px;
 }
 
 .pushen {
     position: absolute;
     right: 0;
-    top: 0;
+    top: 40px;
     z-index: -1;
 }
 
@@ -267,34 +259,25 @@ html{
 }
 
 .end-letter {
-    font-size: 1.5rem;
-    position: absolute;
-    font-family: "Rancho", cursive;
-    right: 128px;
-    bottom: 160px;
+    padding-top: 4px;
 }
 
 .qoute {
-    font-size: 1.5rem;
     position: absolute;
-    text-align: center;
     font-family: "Rancho", cursive;
-    right: 20px;
-    bottom: 60px;
+    font-size: 1.5rem;
+    bottom: 10%;
+    width: 100%;
+    text-align: center;
 }
 
-.contetn,
-.qoute,
-.end-letter {
+.content {
     user-select: none;
 }
 
 @media (max-width:400px) {
-    .header{
+    .header {
         margin-top: 20px;
-    }
-    .end-letter{
-        bottom: 120px;
     }
 }
 
@@ -303,21 +286,6 @@ html{
     .modal {
         padding-left: 25vw;
         padding-right: 25vw;
-    }
-
-    .yuta {
-        left: 25vw;
-    }
-
-    .qoute {
-        right: 35vw;
-    }
-
-    .end-letter {
-        position: absolute;
-        font-family: "Rancho", cursive;
-        right: 45vw;
-        bottom: 160px;
     }
 
     .pushen {
