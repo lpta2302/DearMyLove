@@ -37,6 +37,7 @@ html{
 
 .app {
     position: relative;
+    padding: 100px 0;
     height: 100vh;
     width: 100vw;
 }
@@ -88,11 +89,10 @@ html{
     font-family: "Jersey 10", cursive;
     width: 100%;
     text-align: center;
-    margin-top: 60px;
 }
 
 .header h1 {
-    font-size: 3rem;
+    font-size: 3.5rem;
     color: #db4646;
 }
 
@@ -151,7 +151,7 @@ html{
     left: 0;
     top: 0;
     background-color: #fcdadd;
-    padding-top: 60px;
+    padding: 100px 0;
     width: 100vw;
     height: 100vh;
     transform: translateY(-100%);
@@ -290,9 +290,6 @@ html{
 }
 
 @media (max-width:400px) {
-    html{
-        font-size: 13px;
-    }
     .header{
         margin-top: 20px;
     }
