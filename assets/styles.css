@@ -164,7 +164,7 @@ html {
 }
 
 .content {
-    padding: 20px 40px;
+    padding: 20px 12px;
     height: 400px;
     font-family: "Rancho", cursive;
     font-size: 1.5rem;
@@ -185,8 +185,8 @@ html {
 .yuta {
     position: absolute;
     left: 50%;
-    transform: translateX(-50%);
-    bottom: 240px;
+    transform: translate(-50%,0);
+    bottom: 25%;
 }
 
 .pushen {
@@ -273,6 +273,12 @@ html {
 
 .content {
     user-select: none;
+}
+
+@media (max-width:350px) {
+    .header {
+        margin-top: 20px;
+    }
 }
 
 @media (max-width:400px) {
